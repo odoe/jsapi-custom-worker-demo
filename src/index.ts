@@ -12,7 +12,7 @@ import Point from "@arcgis/core/geometry/Point";
 import App from 'app/App';
 import { initWidgets } from './widgets';
 
-esriConfig.workers.workerPath = ".//RemoteClient.js";
+esriConfig.workers.workerPath = "./RemoteClient.js";
 
 esriConfig.workers.loaderUrl = "https://cdn.jsdelivr.net/npm/systemjs@6.10.0/dist/s.min.js";
 
